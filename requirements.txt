@@ -1,0 +1,37 @@
+# Python 3.13 or 3.14. The reported run used Python 3.13.9, numpy 2.5.2 and pandas 3.0.5 on macOS.
+#
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# On Linux or Windows without a GPU, install the CPU build of PyTorch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# audio and numerics
+librosa==1.0.0
+soundfile==0.14.0
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.0
+joblib==1.5.3
+pyarrow==25.0.1
+tqdm==4.70.0
+
+# models
+xgboost==3.4.1
+optuna>=4.0
+torch>=2.5
+transformers==5.15.1
+
+# figures and notebook
+# plotly and kaleido are pinned exactly: newer Kaleido releases need a separate Chrome install and break static export.
+plotly==5.24.1
+kaleido==0.2.1
+jupytext>=1.16
+nbclient>=0.10
+nbformat>=5.10
+ipykernel>=6.29
+
+# checks
+pytest==9.1.1
+ruff>=0.6

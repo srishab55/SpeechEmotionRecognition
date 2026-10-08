@@ -1,0 +1,4 @@
+,ALL four corpora,RAVDESS,CREMA-D,TESS,SAVEE
+cnn_bilstm|w2v_frames,0.766,0.756,0.765,0.809,0.691
+logistic|w2v,0.736,0.734,0.739,0.722,0.638
+svm_rbf|w2v,0.777,0.781,0.782,0.75,0.717

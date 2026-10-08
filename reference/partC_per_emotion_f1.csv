@@ -1,0 +1,11 @@
+,neutral,calm,happy,sad,angry,fearful,disgust,surprised
+svm_rbf|ALL four corpora,0.82,0.82,0.74,0.73,0.83,0.75,0.79,0.74
+svm_rbf|RAVDESS,0.64,0.82,0.75,0.63,0.88,0.81,0.87,0.86
+svm_rbf|CREMA-D,0.83,,0.78,0.73,0.88,0.71,0.76,
+svm_rbf|TESS,0.81,,0.65,0.78,0.63,0.84,0.82,0.68
+svm_rbf|SAVEE,0.86,,0.63,0.73,0.7,0.67,0.74,0.71
+logistic|ALL four corpora,0.78,0.81,0.71,0.66,0.81,0.7,0.73,0.67
+logistic|RAVDESS,0.69,0.81,0.71,0.58,0.83,0.76,0.76,0.81
+logistic|CREMA-D,0.79,,0.74,0.66,0.85,0.66,0.71,
+logistic|TESS,0.78,,0.63,0.72,0.71,0.78,0.77,0.61
+logistic|SAVEE,0.82,,0.6,0.62,0.66,0.63,0.67,0.56
